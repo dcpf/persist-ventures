@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: black;
+        color: #999;
+        font-family: Copperplate;
+      }
+      .benefits-section {
+        display: flex;
+        .central-image {
+          width: 430px;
+          height: 800px;
+          width: 348px;
+          height: 648px;
+        }
+        .benefits-column {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 0 6%;
+        }
+        .benefit {
+          img:first-child {
+            width: 50px;
+            height: 50px;
+          }
+          div:nth-child(2) {
+            color: red;
+            font-size: 1.5rem;
+            margin: 1.5rem 0 .5rem 0;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="benefits-section">
+      <div class="benefits-column">
+        <div class="benefit">
+          <img src="usersIcon.png" alt="Effortless Workout Logging" />
+          <div>Effortless Workout Logging</div>
+          <div>Easily log your workouts and momnitor your progess over time with our intuitive logging feature.</div>
+        </div>
+        <div class="benefit">
+          <img src="repIcon.png" alt="Accurate Rep Counting" />
+          <div>Accurate Rep Counting</div>
+          <div>Count your reps accurately with our app, ensuring consistency and improved performance.</div>
+        </div>
+      </div>
+      <div>
+        <img class="central-image" src="iphone.png" alt="Mobile Device" />
+      </div>
+      <div class="benefits-column">
+        <div class="benefit">
+          <img src="starsIcon.png" alt="Personalized Workout Plans" />
+          <div>Personalized Workout Plans</div>
+          <div>AI-powered workout plans tailored to your fitness level, goals, and progress.</div>
+        </div>
+        <div class="benefit">
+          <img src="smileyIcon.png" alt="Calorie Calculation & Personalized Diet Plans" />
+          <div>Calorie Calculation & Personalized Diet Plans</div>
+          <div>Calculate calories burned during workouts and AI-customized meal plans for optimal nutrition and wellness</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
